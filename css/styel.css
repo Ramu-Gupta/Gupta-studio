@@ -73,9 +73,7 @@ html ,body{
 
 /* header style code satrt */
 
-header{
-    position: relative;
-}
+
 
 nav{
     width: 100%;
@@ -530,3 +528,69 @@ nav .menu-icon img{
   
 /* home page style code end */
 /* header style code end  */
+
+/* contact htaml page style code start  */
+
+.contact-page1{
+    width: 100%;
+    min-height: 80vh;
+    /* background-color: yellow; */
+    padding: 3vw 6vw;
+    display: flex;
+    gap: 3vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-page1 .contact-page1-colum-box{
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1.5vw;
+    gap: 1vw;
+    background-color: rgba(250, 235, 215, 0.096);
+    box-shadow: 10px 10px 10px rgb(15, 0, 15,0.13);
+    border: 1px solid black;
+
+
+}
+
+.contact-page1 .contact-page1-colum-box-left-box {
+    width: 50%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rebeccapurple; */
+    /* background-color: red; */
+}
+
+.contact-page1 .contact-page1-colum-box-left-box .left-imge-box{
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    box-shadow: rgba(37, 1, 36, 0.144) 0px 3px 3px, rgba(22, 0, 21, 0.33) 0px 3px 3px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.contact-page1 .contact-page1-colum-box-left-box .left-imge-box img{
+    height: 100%;
+    padding-top: 1vw;
+}
+
+.contact-page1 .contact-page1-colum-box-right-box{
+    width: 50%;
+}
+
+.contact-page1 .contact-page1-colum-box-right-box div{
+    margin: 1vw;
+}
+
+
+
+
+/* contact htaml page style code end */

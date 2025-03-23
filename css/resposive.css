@@ -7,11 +7,15 @@
 
     nav {
         padding: 3vw;
+      width: 100%;
+      gap: 0;
+         
         background-color: rgb(6, 224, 231);
     }
 
     nav .log-box h3{
         font-size: 10vw;
+        
     }
 
     nav .links-box .menu-icon{
@@ -19,7 +23,7 @@
     }
 
     nav .links-box .menu-icon img{
-        width: 50px;
+        width:7vw;
     }
 
      .home-page1{
@@ -191,8 +195,8 @@
    }
 
    .foter-bottom .socalmidea img{
-      width: 70px;
-      height: 70px;
+      width: 6VW;
+      height: 6VW;
    }
 
     .footer .developer-details{
