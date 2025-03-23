@@ -1,0 +1,204 @@
+@media (max-width:600px) {
+    
+
+    nav .links-box h4{
+        display: none;
+    }
+
+    nav {
+        padding: 3vw;
+        background-color: rgb(6, 224, 231);
+    }
+
+    nav .log-box h3{
+        font-size: 10vw;
+    }
+
+    nav .links-box .menu-icon{
+        display: block;
+    }
+
+    nav .links-box .menu-icon img{
+        width: 50px;
+    }
+
+     .home-page1{
+        flex-direction: column;
+        padding: 1vw;
+     }
+
+     .home-page1 .left{
+        width: 100%;
+        padding: 4vw;
+     }
+
+     .home-page1 .left .hesings-box  h4{
+        font-size: 8vw;
+        
+     }
+
+     .home-page1 .left  .discripstion p{
+        font-size:  3.4vw;
+     }
+
+     .home-page1 .left .contectbtn{
+        margin-top: 3vw;
+     }
+     .home-page1 .left .contectbtn button{
+        font-size: 3.9vw;
+        padding: 1.5vw 3vw;
+     }
+
+     .home-page1 .right{
+        width: 100%;
+        height: 50vh;
+        /* background-color: red; */
+
+        padding: 4vw;
+     }
+
+     .home-page1 .right .box{
+        width: 100%;
+        height: 100%;
+     }
+
+        .home-page1 .right .box .slider{
+            width: 100%;
+            height: 100%;
+        }
+     .home-page1 .right .box img{
+        
+        height: 100%;
+        
+     }
+
+     .home-page4{
+        padding: 3vw;
+       min-height:  30vh;
+        /* background-color: yellow; */
+     }
+
+     .home-page4 .video1-box{
+        width: 100%;
+        height: 100%;
+        
+     }
+
+     .home-page4 .video1-box video{
+        width: 100%;
+     }
+
+     .home-page5 {
+        flex-direction: column;
+        padding: 4w;
+        min-height: 100%;
+     }
+
+     .home-page5 .page5-left{
+        width: 100%;
+     }
+
+     .home-page5 .page5-left .profile-image-box{
+        width:90vw;
+        height: 90vw;
+     }
+
+     .home-page5 .page5-right{
+        width: 100%;
+        min-height: 100%;
+
+        /* background-color: yellow; */
+     }
+
+     .home-page5 .page5-right .profile-name h1{
+        font-size: 8vw;
+        text-align: center;
+        display: block;
+     }
+
+     .home-page5 .page5-right .porogile-dicripsan p{
+        font-size: 3vw;
+        text-align: justify;
+        padding: 1.9vw;
+    
+     }
+
+     .home-page5 .page5-right .profile-detalis{
+        justify-content: space-evenly;
+     }
+
+     .home-page5 .page5-right .profile-detalis h4{
+        font-size: 4vw;
+     }
+
+     .home-page5 .page5-right .profile-detalis p{
+        font-size: 3vw;
+     }
+
+     .home-page5 .page5-right  .contect{
+       width: 100%;
+       text-align: center;
+     }
+     .home-page5 .page5-right .contect button{
+        padding: 2.4vw 3vw;
+     }
+     .home-page5 .page5-right .contect button a{
+        font-size: 4vw;
+        
+     }
+
+    
+    
+   
+
+     .footer .footer-box-detalis{
+        flex-direction: column;
+        justify-content: center;
+        gap: 3vw;
+        min-height: 39vh;
+        /* background-color: yellow; */
+     }
+      
+    
+      
+     .footer .footer-box-detalis .first h1{
+        font-size: 7vw;
+      
+   
+     }
+
+     .footer .footer-box-detalis .second .detalils-box-add {
+         width: 100%;
+     }
+     .footer .footer-box-detalis .second .detalils-box-add p{
+       font-size: 3vw;
+     }
+      
+
+     .footer .footer-box-detalis .third .links {
+      flex-direction: row;
+      gap: 3vw;
+     }
+
+     .foter-bottom{
+      /* background-color: red; */
+      flex-direction: column;
+      gap: 3vw;
+   }
+
+   .foter-bottom p{
+      padding-top:3vw ;
+   }
+
+   .foter-bottom .socalmidea img{
+      width: 70px;
+      height: 70px;
+   }
+
+    .footer .developer-details{
+      margin-top: 3vw;
+    }
+    .developer-details p{
+      font-size: 4vw;
+    }
+}

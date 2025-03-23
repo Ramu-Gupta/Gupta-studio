@@ -1,0 +1,532 @@
+/* css rest  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html ,body{
+    width: 100%;
+    min-height:100vh;
+    background-color: rgba(218, 183, 66, 0.651);
+}
+
+/* menu style code start */
+
+.hidemenu{
+    display: none;
+    width: 70%;
+    background-color: rgb(175, 79, 9);
+    box-shadow: 10px 10px 10px rgb(133, 130, 130);
+    min-height: 70vh;
+    padding: 3vw;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 99;
+}
+
+.hidemenu .close-btn{
+    text-align: right;
+    padding-bottom: 3vw;
+    
+}
+
+.hidemenu .close-btn button{
+    border: none;
+    background: transparent;
+    font-size: 8vw;
+    font-weight: bold;
+}
+
+
+.hidemenu .menu-links{
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+
+}
+.hidemenu .menu-links h4{
+    padding: 3vw 0;
+    border: 1px solid rgb(231, 46, 222);
+    background-color: rgb(231, 46, 222);
+    /* box-shadow: 10px 10px 10px  chartreuse;; */
+     /* background: chartreuse; */
+}
+
+.hidemenu .menu-links h4 a{
+    text-decoration: none;
+    font-size: 4vw;
+    /* color: rgba(255, 255, 255, 0.767); */
+    color: black;
+    padding: 3vw;
+    
+}
+    
+
+
+
+
+
+/* menu style code end */
+
+/* header style code satrt */
+
+header{
+    position: relative;
+}
+
+nav{
+    width: 100%;
+    padding: 2vw  3vw; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.log-box h3{
+    font-size: 4vw;
+    font-weight: bold;
+    
+}
+
+.log-box h3 span{
+    color:rgb(231, 46, 222);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: red;
+}
+
+.links-box{
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    
+}
+
+.links-box h4{
+    border: 1px solid rgb(231, 46, 222);
+    padding: 10px 20px;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.links-box h4::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgb(231, 46, 222);
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    transition: all ease 1s;
+    border-radius: 50%;
+
+}
+
+.links-box h4:hover::after{
+    bottom: 0;
+    border-radius: 0;
+
+    
+}
+
+.links-box h4 a{
+    text-decoration: none;
+    color: black;
+    z-index: 9;
+    position: relative;
+}
+
+nav .menu-icon{
+    display: none;
+}
+nav .menu-icon img{
+    width: 35px;
+    cursor: pointer;
+}
+
+
+/* home page style code satrt */
+
+
+    .home-page1{
+        /* background-color: yellow; */
+        width: 100%;
+        min-height:80vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3vw;
+        border-bottom: 1px solid rgb(231, 46, 222);
+    }
+
+    .left{
+        /* background-color: aqua; */
+        width: 50%;
+        padding: 1vw;
+    }
+    .hesings-box h4{
+        position: relative;
+        font-size: 3vw;
+        
+    }
+    .discripstion{
+        text-transform: capitalize;
+        font-weight: 200;
+        margin: 1vw 0;
+    }
+    .contectbtn button{
+        font-size: 1.5vw;
+        padding: 0.6vw 1.5vw;
+        border-radius: 50px;
+        background: transparent;
+        border: 1px solid rgb(231, 46, 222);
+        font-weight: bold;
+        position: relative;
+        overflow: hidden;
+        
+        }
+
+        .contectbtn button a{
+            text-decoration: none;
+            z-index: 9;
+            position: relative;
+            color: black;
+        }
+        .contectbtn button::after{
+            content: '';
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            bottom: -100%;
+            background-color: rgb(231, 46, 222);
+            transition: all ease 1s;
+            border-radius: 50%;
+        }
+        .contectbtn button:hover::after{
+            bottom: 0;
+            
+            border-radius: 0;
+        }
+    .right{
+        /* background-color: blue; */
+        width: 50%;
+        height: 100%;
+    }
+
+    .right .box{
+        width: 31.5vw;
+        height: 31.5vw;
+        margin: 0 auto;
+        
+        padding: 1vw;
+        position: relative;
+
+    }
+
+    .slider{
+        display: flex;
+        
+        width: 100%;
+        
+
+    }
+
+    .box .img{
+        height: 100%;
+        width: 100%;
+        transition:  1s ease-in-out;
+    }
+
+    /* page3 style code start  */
+    .home-page3{
+        padding: 1.9vw 0;
+        overflow: hidden;
+    }
+
+    .home-page3 .slider-text{
+        white-space: nowrap;
+        display: inline-block;
+        animation-name: move;
+        animation-duration: 15s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        
+    }
+
+    
+
+    .home-page3 .slider-text-box{
+        white-space: nowrap;
+        }
+
+        .home-page3 .slider-text h1{
+            font-size: 6vw;
+            text-transform: uppercase;
+            display: inline-block;
+            
+        
+        }
+    .home-page3 .gola{
+        width: 3vw;
+        height: 3vw;
+        margin: 0 1vw;
+        display: inline-block;
+        background-color:rgb(231, 46, 222);
+        border-radius: 50%;
+    }
+
+    @keyframes move{
+        from{
+            transform: translate(0);
+        }
+        to{
+            transform: translate(-100%);
+        }
+    }
+
+
+
+    /* page3 style code end */
+
+    /* page4 style code start */
+    .home-page4{
+        padding: 3vw;
+        min-height: 100vh;
+    }
+    .home-page4 .video1-box{
+        width: 100%;
+        height: 100%;
+        border-radius: 17px;
+
+        /* border-radius: 18px; */
+        /* background-color: yellow; */
+
+    }
+    .home-page4 .video1-box video{
+        width: 100%;
+        height: 100%;
+        border-radius: 18px;
+        /* transform: rotateX(180deg); */
+        
+    
+        
+    }
+    /* page4 style code end */
+
+    /* page5 style code start */
+
+    .home-page5{
+        padding: 3vw;
+        /* background-color: yellow; */
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 1px solid rgb(231, 46, 222);
+    }
+
+    .home-page5 .page5-left{
+        /* background-color: blue; */
+        width: 55%;
+        height: 100%;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .home-page5 .profile-image-box{
+        width: 40vw;
+        height: 40vw;
+        /* background-color: red; */
+        border: 1px solid rgb(231, 46, 222);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        justify-content: center;
+    }
+
+    .home-page5 .profile-image-box img{
+        padding: 3px;
+       height: 100%;
+     /* height: 100%;  */
+     
+    }
+
+
+
+    .home-page5 .page5-right{
+        /* background-color: aqua; */
+        width: 50%;
+        height: 100%;
+        padding-right:1vw ;
+    }
+
+    .home-page5 .page5-right .profile-name h1{
+        font-size: 4vw;
+        display: inline-block;
+        position: relative;
+    }
+
+    .profile-name h1::after{
+        content: '';
+        position: absolute;
+        width: 0%;
+        height: 3px;
+        
+        bottom: 0;
+        left: 0;
+        background-color: rgb(231, 46, 222);
+        transition: all 1s;
+
+
+    }
+    .profile-name h1:hover::after{
+        width: 100%;
+        
+    }
+
+    .porogile-dicripsan p{
+        margin: 1vw 0;
+        text-transform: capitalize;
+        font-weight: 200;
+    }
+
+    .profile-detalis{
+        padding: 1vw;
+        display: flex;
+        gap: 3vw;
+    }
+
+    .styel4 h4{
+        font-size: 1.9vw;
+        text-transform: capitalize;
+    }
+
+    .styel4 p{
+        font-weight: 300;
+        text-align: center;
+        padding: 0.5vw;
+        font-size: 1.5vw;
+    }
+
+    .contect{
+        margin-top: 1.9vw;
+    }
+
+
+
+
+    /* page 5 style code end */
+
+    /* footer style code start */
+
+        .footer{
+            width: 100%;
+            min-height: 30vh;
+            color: white;
+            background-color: black;
+            position: relative;
+            padding:1.9vw;
+            
+            
+        }
+        .footer .footer-box-detalis{
+            width: 100%;
+            min-height:100%;
+            /* background-color: red; */
+            display: flex;
+            align-items: center;
+            gap: 1vw;
+            padding: 1vw;
+            justify-content: space-between;
+            
+        }
+
+
+        
+       
+        .footer .footer-box-detalis .first h1{
+            font-size: 4vw;
+        }
+
+        .first h1 span{
+            color: rgb(231, 46, 222);
+        }
+
+        .footer .footer-box-detalis .third .links{
+            display: flex;
+            /* background-color: yellow; */
+            gap: 0.8vw;
+            flex-direction: column;
+        }
+
+        .footer .third .links a{
+            text-decoration: none;
+            color: white; 
+            font-weight: bold;
+        }
+
+        .footer .footer-box-detalis .detalils-box-add P{
+            font-size: 1.3vw;
+            margin: 3px;
+        }
+        .developer-details{
+            
+            width: 100%;
+            
+            text-align: center;
+            padding: 1vw;
+            padding-bottom: 0px;
+        }
+
+        .developer-details a{
+            text-decoration: none;
+        }
+
+
+
+        .footer .foter-bottom{
+           
+            
+            
+            width: 100%;
+            padding: 1vw;
+            border-top: 1px solid rgb(231, 46, 222);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            
+
+        }
+
+        .footer .footer-box-detalis{
+            width: 100%;
+            height: 11vw;
+
+        }
+
+        .foter-bottom a{
+            text-decoration: none;
+            margin: 0 1vw;
+        }
+        .foter-bottom img{
+            width: 40px;
+            height: 40px;
+        }
+    /* footer style code end */
+
+    
+
+  
+/* home page style code end */
+/* header style code end  */
