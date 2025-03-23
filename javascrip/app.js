@@ -1,4 +1,4 @@
-const images=["/image/album (1).png","/image/album (2).png","/image/album (3).png"]
+const images=["image/album (1).png","image/album (2).png","image/album (3).png"]
 let index=0;
 
 
